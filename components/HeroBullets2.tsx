@@ -36,7 +36,7 @@ const placeholder = `{
 export function HeroBullets2() {
   const jsonInputStyle = {
     // Hide the component on screens smaller than 768px
-    '@media (max-width: 768px)': {
+    '@media (maxWidth: 768px)': {
       display: 'none',
     },
     width: '100%',
@@ -49,39 +49,32 @@ export function HeroBullets2() {
           <Title className={classes.title}>
             <span className={classes.highlight}>Chromescope</span> <br />{' '}
           </Title>
-          <Text mt="md">
-            Automated risk asessment tool built with Node.js and Express.
-          </Text>
+          <Text mt="md">Automated risk asessment tool built with Node.js and Express.</Text>
           <List
             mt={30}
             spacing="sm"
             size="sm"
             icon={
               <ThemeIcon size={20} radius="xl">
-                <IconCheck
-                  style={{ width: rem(12), height: rem(12) }}
-                  stroke={1.5}
-                />
+                <IconCheck style={{ width: rem(12), height: rem(12) }} stroke={1.5} />
               </ThemeIcon>
             }
           >
             <List.Item>
-              <b>Evaluates Manifest Data</b> – Checks Content Security Policy,
-              permissions, and metadata for risk.
+              <b>Evaluates Manifest Data</b> – Checks Content Security Policy, permissions, and
+              metadata for risk.
             </List.Item>
             <List.Item>
-              <b>Javascript Analysis</b> – Uses RetireJS for identifying
-              vulerable libraries and outdated components. Includes
-              eslint-plugin-security for security-focused code asessments.
+              <b>Javascript Analysis</b> – Uses RetireJS for identifying vulerable libraries and
+              outdated components. Includes eslint-plugin-security for security-focused code
+              asessments.
             </List.Item>
             <List.Item>
-              <b>Chrome API and Data Handling</b> – Comphrensive check of all
-              Chrome API calls in their respective files, and provides overview
-              of data handling practices.
+              <b>Chrome API and Data Handling</b> – Comphrensive check of all Chrome API calls in
+              their respective files, and provides overview of data handling practices.
             </List.Item>
             <List.Item>
-              <b>SIEM Integration</b> – Returns JSON data for seemless SIEM
-              integration
+              <b>SIEM Integration</b> – Returns JSON data for seemless SIEM integration
             </List.Item>
           </List>
           <Group mt={30}>
@@ -89,12 +82,7 @@ export function HeroBullets2() {
               radius="xl"
               size="md"
               className={classes.control}
-              onClick={() =>
-                window.open(
-                  'https://chrome-extension-analyzer.fly.dev/',
-                  '_blank'
-                )
-              }
+              onClick={() => window.open('https://chrome-extension-analyzer.fly.dev/', '_blank')}
             >
               View App
             </Button>
@@ -103,9 +91,7 @@ export function HeroBullets2() {
               radius="xl"
               size="md"
               className={classes.control}
-              onClick={() =>
-                window.open('https://github.com/eotssa/ChromeScope', '_blank')
-              }
+              onClick={() => window.open('https://github.com/eotssa/ChromeScope', '_blank')}
             >
               Source code
             </Button>
