@@ -49,7 +49,7 @@ export function HeroBullets2() {
           <Title className={classes.title}>
             <span className={classes.highlight}>Chromescope</span> <br />{' '}
           </Title>
-          <Text mt="md">Automated risk asessment tool built with Node.js and Express.</Text>
+          <Text mt="md">Automated risk assessment tool built with Node.js and Express.</Text>
           <List
             mt={30}
             spacing="sm"
@@ -65,16 +65,16 @@ export function HeroBullets2() {
               metadata for risk.
             </List.Item>
             <List.Item>
-              <b>Javascript Analysis</b> – Uses RetireJS for identifying vulerable libraries and
+              <b>Javascript Analysis</b> – Uses RetireJS for identifying vulnerable libraries and
               outdated components. Includes eslint-plugin-security for security-focused code
               asessments.
             </List.Item>
             <List.Item>
-              <b>Chrome API and Data Handling</b> – Comphrensive check of all Chrome API calls in
+              <b>Chrome API and Data Handling</b> – Comprehensive check of all Chrome API calls in
               their respective files, and provides overview of data handling practices.
             </List.Item>
             <List.Item>
-              <b>SIEM Integration</b> – Returns JSON data for seemless SIEM integration
+              <b>SIEM Integration</b> – Returns JSON data for seamless SIEM integration
             </List.Item>
           </List>
           <Group mt={30}>

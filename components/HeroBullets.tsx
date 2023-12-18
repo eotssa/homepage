@@ -29,12 +29,12 @@ export function HeroBullets() {
             </List.Item>
             <List.Item>
               <b>Education</b> – I graduated from John Jay College with a BS in Computer Science and
-              Information Security in December 2024. I also have a BA in Biological Sciences from
+              Information Security in December 2023. I also have a BA in Biological Sciences from
               Baruch College.
             </List.Item>
             <List.Item>
-              <b>Site Info</b> – This site was made using, using Next.js, Typescript, and Mantine.
-              If you want to fork it for your own use, you are free to do so!
+              <b>Site Info</b> – This site was made using Next.js, Typescript, and Mantine. If you
+              want to fork it for your own use, you are free to do so!
             </List.Item>
           </List>
           <Group mt={30}>

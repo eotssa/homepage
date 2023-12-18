@@ -8,7 +8,7 @@ export function HeroBullets4() {
       <div className={classes.inner}>
         <div className={classes.content}>
           <Title className={classes.title}>
-            <span className={classes.highlight}>Crytographic Tools</span> <br />{' '}
+            <span className={classes.highlight}>Cryptographic Tools</span> <br />{' '}
           </Title>
           <Text mt="md">Automated decryption tools in C++</Text>
           <List
