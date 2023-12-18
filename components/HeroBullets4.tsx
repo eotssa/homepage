@@ -1,7 +1,6 @@
 import { Container, Title, Button, Group, Text, List, ThemeIcon, rem, Image } from '@mantine/core';
 import { IconCheck } from '@tabler/icons-react';
 import classes from './HeroBullets.module.css';
-import cplusplus from './icons/C++.png';
 
 export function HeroBullets4() {
   return (
@@ -50,7 +49,7 @@ export function HeroBullets4() {
         </div>
         <Image
           fit="contain"
-          src={cplusplus.src}
+          src="/icons/c.svg"
           className={classes.image}
           style={{ maxWidth: '25%', height: 'auto' }}
         />{' '}
