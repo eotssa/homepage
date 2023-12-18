@@ -41,7 +41,7 @@ export function HeroBullets4() {
               radius="xl"
               size="md"
               className={classes.control}
-              onClick={() => window.open('https://github.com/eotssa/Noted', '_blank')}
+              onClick={() => window.open('https://github.com/eotssa/Cryptographic-Tools', '_blank')}
             >
               Source code
             </Button>
