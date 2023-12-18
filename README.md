@@ -1,4 +1,4 @@
-# Mantine Next.js template
+# README 
 
 This is a custom website that I bootstrapped with Mantine CSS. 
 
