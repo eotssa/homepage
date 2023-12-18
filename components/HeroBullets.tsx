@@ -41,7 +41,7 @@ export function HeroBullets() {
             <Button
               onClick={() =>
                 window.open(
-                  'https://github.com/eotssa/homepage/blob/master/WilsonWu%20Resume.pdf/',
+                  'https://github.com/eotssa/homepage/blob/master/Wilson%20Wu%20Resume.pdf/',
                   '_blank'
                 )
               }
