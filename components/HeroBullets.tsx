@@ -38,10 +38,26 @@ export function HeroBullets() {
             </List.Item>
           </List>
           <Group mt={30}>
-            <Button radius="xl" size="md" className={classes.control}>
+            <Button
+              onClick={() =>
+                window.open(
+                  'https://github.com/eotssa/homepage/blob/master/WilsonWu%20Resume.pdf/',
+                  '_blank'
+                )
+              }
+              radius="xl"
+              size="md"
+              className={classes.control}
+            >
               View Resume
             </Button>
-            <Button variant="default" radius="xl" size="md" className={classes.control}>
+            <Button
+              onClick={() => window.open('https://github.com/eotssa/homepage', '_blank')}
+              variant="default"
+              radius="xl"
+              size="md"
+              className={classes.control}
+            >
               Source code
             </Button>
           </Group>
